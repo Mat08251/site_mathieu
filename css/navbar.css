@@ -2,6 +2,10 @@
     background-color: rgba(26, 26, 26, 0.747);
 }
 
+.navbar-toggler{
+    border-color: rgb(151, 151, 151);
+}
+
 .nav-item{
     margin-left: 240px;
 }
@@ -9,4 +13,20 @@
 .nav-link{
     color: rgba(255, 255, 255, 0.863);
     font-size: 20px;
+}
+
+
+/*media responsive tablette ipad*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .nav-item{
+        margin-left: 0px;
+    }
+}
+
+
+/*media responsive telephone iphone*/
+@media only screen and (max-width: 600px){
+    .nav-item{
+        margin-left: 0px;
+    }
 }
