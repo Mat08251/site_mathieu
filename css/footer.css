@@ -2,6 +2,15 @@
     background-color: rgb(37, 37, 37);
 }
 
+.sociaux{
+    text-align: end;
+}
+
+.texte{
+    color: azure;
+    text-align: center;
+}
+
 .fab{
     color: rgb(128, 128, 128);
     font-size: 35px;
@@ -11,4 +20,20 @@
 .far{
     color: rgb(128, 128, 128);
     font-size: 15px;
+}
+
+.fas{
+    color: rgb(128, 128, 128);
+    margin: 5px;
+}
+
+.copy{
+    color: azure;
+}
+
+/*media responsive telephone iphone*/
+@media only screen and (max-width: 600px){
+    .sociaux{
+        text-align: center;
+    }
 }
