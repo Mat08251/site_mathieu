@@ -22,13 +22,14 @@
     font-size: 15px;
 }
 
-.fas{
+.coordonnees{
     color: rgb(128, 128, 128);
     margin: 5px;
 }
 
 .copy{
     color: azure;
+    margin-bottom: 0%;
 }
 
 /*media responsive telephone iphone*/

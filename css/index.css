@@ -1,0 +1,35 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider{
+    height: 50vh;
+    position: relative;
+}
+
+.slider img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.suivant, .precedent {
+    color: rgb(205, 207, 207)!important;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(6%)
+}
+
+.suivant {
+    right: 1rem;
+}
+
+.precedent {
+    left: 1rem;
+}
