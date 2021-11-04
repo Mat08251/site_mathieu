@@ -16,6 +16,12 @@
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.slider img.active {
+    opacity: 1;
 }
 
 .suivant, .precedent {
@@ -23,7 +29,8 @@
     font-size: 3rem;
     position: absolute;
     top: 50%;
-    transform: translate(6%)
+    transform: translate(6%);
+    cursor: pointer;
 }
 
 .suivant {
