@@ -1,0 +1,118 @@
+.body {
+    margin: 0;
+    padding: 0%;
+}
+
+.section_perso{
+    padding: 0%;
+    background-color: rgb(39, 39, 39)!important;
+}
+
+.titre{
+    color: aliceblue;
+}
+
+.info-perso {
+    display: flex;
+    height: 500px;
+    background-color: rgb(39, 39, 39)!important;
+    padding: 0%!important;
+}
+
+.photo_profil {
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-bottom: 80px;
+}
+
+.texte_infoperso {
+    color: azure;
+    margin-left: 18%;
+    margin-top: 4%;
+}
+
+.bloc{
+    background-color: rgb(39, 39, 39)!important;
+    height: 690px;
+}
+
+.titre_section_bloc {
+    color: azure;
+    margin-bottom: 80px;
+    font-size: 40px;
+}
+
+.bloc_etude{
+    background-color: rgb(85, 85, 85);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 160px;
+    margin-left: 50%;
+}
+
+.bloc_experience{
+    background-color: rgb(85, 85, 85);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 160px;
+    margin-right: 50%;
+}
+
+.bloc_passion{
+    background-color: rgb(85, 85, 85);
+    border-radius: 15px;
+    width: 50%;
+    height: 160px;
+    margin-left: 50%;
+}
+
+.titre_bloc {
+    color: azure;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.texte_bloc{
+    color: azure;
+    margin-bottom: 0%!important;
+}
+
+.bloc_pub{
+    background-color: rgb(47, 186, 211);
+    height: 330px;
+}
+
+.titre_pub{
+    font-size: 40px;
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(216, 231, 231);
+}
+
+.texte_pub{
+    text-align: center;
+    color: rgb(229, 241, 241);
+    font-size: 20px;
+}
+
+.lien{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lien_pub{
+    color: rgb(240, 240, 240);
+    font-size: 30px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.lien_pub:hover{
+    background-color: azure;
+    color: rgb(63, 63, 63);
+}
+
