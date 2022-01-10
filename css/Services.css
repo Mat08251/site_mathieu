@@ -1,0 +1,106 @@
+body{
+    margin: 0%;
+    background: url("../img/fond.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titre_page{
+    color: azure;
+    margin-top: 5%;
+}
+
+.texte_accroche{
+    color: azure;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.service_divers{
+    display: flex;
+    color: azure;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 10%;
+}
+
+.maquettage{
+    background-color: rgba(65, 65, 65, 0.582);
+    margin-right: 60px;
+    width: 30%;
+}
+
+.developpement{
+    background-color: rgba(65, 65, 65, 0.582);
+    width: 30%;
+}
+
+.objectif {
+    padding: 2%;
+    margin-top: 15%;
+    color: azure;
+    background-color: rgb(3, 187, 187);
+    border-radius: 30px 30px;
+}
+
+.titre_objectif{
+    margin-left: 7%;
+    font-size: 34px;
+}
+
+.service_descriptif{
+    color: azure;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.maquettage_descriptif{
+    width: 50%;
+    margin-left: 50%;
+}
+
+.developpement_descriptif{
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 50%;
+}
+
+.titre_descriptif{
+    font-size: 50px;
+}
+
+.rendez_vous{
+    color: azure;
+    background-color: rgb(17, 201, 201);
+    padding-bottom: 0%!important;
+    height: 400px;
+}
+
+.bloc_rdv{
+    padding-top: 5%;
+}
+
+.titre_rdv{
+    font-size: 40px;
+}
+
+.texte_rdv{
+    margin-bottom: 0%;
+}
+
+.btn{
+    margin-top: 50px;
+    border: 1px solid white;
+    border-radius: 10px 10px;
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+}
+
+.btn a{
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+}
+
