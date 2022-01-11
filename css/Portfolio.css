@@ -1,0 +1,39 @@
+body{
+    margin: 0%;
+    background: url("../img/fond.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titre_page{
+    color: azure;
+    font-size: 60px;
+}
+
+.card-group{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.card{
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(126, 126, 126);
+    color: azure;
+}
+
+.lien_projet{
+    text-align: right;
+}
+
+.btn{
+    border: 1px solid rgb(13, 177, 169);
+    border-radius: 10px 10px;
+    color: azure;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(17, 184, 184);
+    transition:  1s;
+}
