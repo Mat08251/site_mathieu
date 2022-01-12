@@ -54,3 +54,13 @@ body{
     color: azure;
     border-radius: 20px 20px;
 }
+
+.btn{
+    color: azure;
+    background-color: rgb(18, 175, 175);
+}
+
+.btn:hover{
+    background-color: rgb(15, 128, 128);
+    transition: 1s;
+}
