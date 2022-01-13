@@ -12,10 +12,16 @@ body{
 }
 
 .texte_info{
-    width: 50%;
+   text-align: center;
     margin-right: auto;
     margin-left: auto;
     margin-top: 10%;
+    font-size: 29px;
+}
+
+.mot_important{
+    color: rgb(25, 173, 173);
+    font-weight: bolder;
 }
 
 .formulaire{

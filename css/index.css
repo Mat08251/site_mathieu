@@ -8,8 +8,13 @@
 .presentation{
     background-color: rgb(31, 31, 31);
     align-items: center;
+    height: 500px;
 }
 
+.titre_qui_suisje{
+    text-align: left;
+    margin-bottom: 80px;
+}
 
 .photo{
     margin-left: 15%;
@@ -24,6 +29,7 @@
     text-align: center;
     float: right!important;
     margin-left: 8%;
+    margin-bottom: 50px;
 }
 
 #para1{
