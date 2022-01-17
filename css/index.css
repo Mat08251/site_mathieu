@@ -86,8 +86,14 @@ h1{
 }
 
 .competence_texte{
-    margin-right: 150px;
+    margin-right: 180px;
     color: rgb(216, 216, 216);
+}
+
+.titre_competence{
+    font-weight: bolder;
+    color: #1ab5c0;
+    font-size: 20px;
 }
 
 .info_competences{
@@ -120,11 +126,19 @@ h1{
 .groupe-projet{
     margin: 0%!important;
     margin-top: 80px!important;
-    margin-left: 85px!important;
+    margin-left: 45px!important;
 }
 
 .card{
-    width: 80%;
+    width: 90%;
+}
+
+.card-img{
+    opacity: 0.5;
+}
+
+.titre_projet{
+    margin-top: 80px;
 }
 
 
@@ -160,8 +174,18 @@ h1{
     color: azure;
 }
 
+.titre_pub{
+    color: #0e7a81;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .lien-pub{
-    margin-left: 80px;
+    margin-left: 35px;
+}
+
+.texte_descrip_pub{
+    font-size: 18px;
 }
 
 .lien-pub a{
@@ -172,8 +196,14 @@ h1{
 }
 
 .texte-lien{
-    margin-top: 14px;
-    font-size: 30px;
+    margin-top: 18px;
+    font-size: 22px;
+}
+
+.btn:hover{
+    background-color: #066169!important;
+    transition: 1s;
+    border-color: #1d1d1d!important;
 }
 
 
