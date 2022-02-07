@@ -3,6 +3,7 @@ body{
     background: url("../img/fond.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .titre_page{
@@ -46,9 +47,13 @@ body{
     margin-right: 80px;
 }
 
-.nom, .prenom, .email{
+.nom, .prenom, .phone, .email{
 
     height: 60px;
+}
+
+.phone{
+    width: 29%;
 }
 
 .message{
@@ -69,4 +74,29 @@ body{
 .btn:hover{
     background-color: rgb(15, 128, 128);
     transition: 1s;
+}
+
+@media all and (max-device-width: 736px)
+{
+    body{
+        background-size: cover;
+    }
+
+    .debut_formulaire{
+        flex-direction: column;
+    }
+
+    .section_nom{
+        margin-right: 0px;
+    }
+
+    .nom, .prenom, .phone, .email{
+        width: 80% !important;
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width: 1366px){
+    .phone{
+        width: 75% !important;
+    }
 }

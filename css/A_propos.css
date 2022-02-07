@@ -1,11 +1,13 @@
-.body {
+body {
     margin: 0;
     padding: 0%;
+    background-image: url("../img/fond.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .section_perso{
     padding: 0%;
-    background-color: rgb(39, 39, 39)!important;
 }
 
 .titre{
@@ -15,7 +17,6 @@
 .info-perso {
     display: flex;
     height: 500px;
-    background-color: rgb(39, 39, 39)!important;
     padding: 0%!important;
 }
 
@@ -32,7 +33,6 @@
 }
 
 .bloc{
-    background-color: rgb(39, 39, 39)!important;
     height: 690px;
 }
 
@@ -42,36 +42,45 @@
     font-size: 40px;
 }
 
+.bloc-imagetitre{
+    text-align: center;
+}
+
+.photo_competence{
+    width: 130px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 .bloc_etude{
     background-color: rgb(85, 85, 85);
     border-radius: 15px;
     margin-bottom: 20px;
-    width: 50%;
-    height: 160px;
-    margin-left: 50%;
+    width: 20%;
+    height: 370px;
+    margin-left: 58%;
 }
 
 .bloc_experience{
     background-color: rgb(85, 85, 85);
     border-radius: 15px;
     margin-bottom: 20px;
-    width: 50%;
-    height: 160px;
-    margin-right: 50%;
+    width: 20%;
+    height:  370px;
+    margin-right: 58%;
 }
 
 .bloc_passion{
     background-color: rgb(85, 85, 85);
     border-radius: 15px;
-    width: 50%;
-    height: 160px;
-    margin-left: 50%;
+    width: 20%;
+    height:  370px;
+    margin-left: 58%;
 }
 
 .titre_bloc {
     color: azure;
-    margin-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .texte_bloc{
@@ -82,6 +91,7 @@
 .bloc_pub{
     background-color: rgb(47, 186, 211);
     height: 330px;
+    margin-top: 38%;
 }
 
 .titre_pub{

@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    background: url("../img/fondsite.jpg");
+    background: url("../img/fond.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -24,6 +24,18 @@ body{
     margin-top: 10%;
 }
 
+.image_service_maquette{
+    width: 150px;
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+
+.image_service_dev{
+    width: 200px;
+    height: 180px;
+    margin-bottom: 12%;
+}
+
 .maquettage{
     background-color: rgba(65, 65, 65, 0.582);
     margin-right: 60px;
@@ -36,6 +48,7 @@ body{
 }
 
 .objectif {
+    width: 55%;
     padding: 2%;
     margin-top: 15%;
     color: azure;
@@ -46,6 +59,16 @@ body{
 .titre_objectif{
     margin-left: 7%;
     font-size: 34px;
+    margin-bottom: 50px;
+}
+
+.bloc_objectif{
+    display: flex;
+}
+
+.image_objectif{
+    width: 30%;
+   margin-left: 50px;
 }
 
 .service_descriptif{
@@ -56,13 +79,27 @@ body{
 
 .maquettage_descriptif{
     width: 50%;
-    margin-left: 50%;
+    margin-left: 45%;
+    display: flex;
 }
 
 .developpement_descriptif{
     width: 50%;
     margin-top: 10%;
-    margin-right: 50%;
+    margin-right: 45%;
+    display: flex;
+}
+
+.image_maquette{
+    margin-right: 50px;
+    height: 250px !important;
+    width: 250px !important;
+}
+
+.image_dev_pc{
+    width: 300px;
+    height: 280px;
+    margin-left: 50px;
 }
 
 .titre_descriptif{
