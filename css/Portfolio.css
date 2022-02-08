@@ -3,6 +3,7 @@ body{
     background: url("../img/fond.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .titre_page{
@@ -36,4 +37,24 @@ body{
 .btn:hover{
     background-color: rgb(17, 184, 184);
     transition:  1s;
+}
+
+@media all and (max-device-width: 736px){
+    .card-group{
+        flex-direction: column;
+    }
+
+    .card{
+        margin: 70px !important;
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width: 1366px){
+    .card-group{
+        flex-direction: column;
+    }
+
+    .card{
+        margin: 70px !important;
+    }
 }
