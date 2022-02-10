@@ -4,6 +4,7 @@ body {
     background-image: url("../img/fond.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .section_perso{
@@ -126,3 +127,103 @@ body {
     color: rgb(63, 63, 63);
 }
 
+@media screen and (min-width : 768px) and (max-width: 1366px) {
+    .info-perso {
+        flex-direction: column;
+    }
+
+    .photo_profil {
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .texte_infoperso {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bloc{
+        margin-top: 40%;
+        margin-bottom: 100%;
+    }
+
+    .bloc_etude{    
+        width: 34%;
+        height: 380px;
+    }
+    
+    .bloc_experience{
+        width: 34%;
+        height:  400px;
+    }
+    
+    .bloc_passion{
+        width: 34%;
+        height:  390px;
+    }
+
+    .bloc_pub{
+        height: 380px;
+    }
+}
+
+@media all and (max-device-width: 736px) {
+    .info-perso {
+        flex-direction: column;
+    }
+
+    .photo_profil {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .texte_infoperso {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5%;
+    }
+
+    .bloc{
+        margin-top: 100%;
+        margin-bottom: 250%;
+    }
+
+    .bloc_etude{    
+        width: 80%;
+        height: 380px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+    
+    .bloc_experience{
+        width: 80%;
+        height:  400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+    
+    .bloc_passion{
+        width: 80%;
+        height:  390px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bloc_pub{
+        height: 490px;
+    }
+
+    .titre_pub{
+        font-size: 30px;
+    }
+
+    .lien_pub{
+        font-size: 20px;
+    }
+}
