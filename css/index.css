@@ -36,7 +36,12 @@
     text-shadow: #1d1d1d 2px 2px;
 }
 
+.bloc_presentation{
+    padding: 0% !important;
+}
+
 .presentation{
+    display: flex;
     background-image: url("../img/fond.jpg");
     align-items: center;
     height: 500px;
@@ -61,6 +66,11 @@
     float: right!important;
     margin-left: 8%;
     margin-bottom: 50px;
+}
+
+.bloc_para{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
 }
 
 #para1{
@@ -147,6 +157,7 @@ h1{
 }
 
 .info_competences{
+    display: flex;
     padding-left: 20%;
     margin-top: 70px!important;
     text-align: center;
@@ -205,6 +216,7 @@ h1{
     height: 500px;
     width: 100%;
     background-image: url("../img/fond.jpg");
+    background-size: cover;
 }
 
 .groupe-projet{
@@ -213,7 +225,7 @@ h1{
     margin-left: 45px!important;
 }
 
-.card{
+.projet_card{
     width: 90%;
 }
 
@@ -293,3 +305,198 @@ h1{
 }
 
 
+@media screen and (min-width : 768px) and (max-width: 1366px){
+    .carousel-item{
+        height: 530px;
+    }
+
+    .photo{
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+    .info_competences{
+        padding-left: 10%;
+    }
+
+    .competence_texte{
+        width: 40% !important;
+        margin-right: 10%;
+    }
+
+    .projets{
+        height: 1500px;
+    }
+
+    .projet_portfolio{
+        margin-left: 14%;
+    }
+
+    .groupe-projet{
+        flex-direction: column;
+    }
+
+    .projet_card{
+        width: 280%;
+        margin-bottom: 40%;
+    }
+
+    .annonce{
+        height: 400px;
+    }
+
+    .info-annonce {
+        height: 80%;
+    }
+
+    .pub{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .lien-pub{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .lien-pub a{
+        height: 100%;
+    }
+}
+
+@media all and (max-device-width: 736px){
+    .carousel-item{
+        height: 260px;
+    }
+
+    .titre_slide{
+        font-size: 30px;
+    }
+    
+    .soustitre_slide{
+        font-size: 22px;
+        margin-bottom: 10%;
+    }
+
+    .presentation{
+       flex-direction: column;
+        height: 1000px;
+        background-size: cover;
+    }
+
+    .photo{
+        width: auto !important;
+        margin-left: 5%;
+        margin-top: 5% !important;
+    }
+
+    .bloc_description{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: auto !important;
+    }
+
+    .titre_qui_suisje{
+        text-align: center;
+        padding-top: 30% !important;
+        margin-bottom: 50px;
+    }
+
+    .description{
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    .texte_para{
+        font-size: 40px;
+    }
+
+    .service{
+        height: 800px;
+    }
+
+    .bande-service{
+        flex-direction: column;
+        height: 680px;
+        text-align: center;
+    }
+
+    .photo_service{
+        padding-top: 10%;
+    }
+
+    .bloc_design, .bloc_dev, .bloc_referencement{
+        width: auto !important;
+    }
+
+    .competences{
+        height: 850px;
+        background-size: cover;
+    }
+
+    .info_competences{
+        flex-direction: column;
+        padding-left: 0%;
+    }
+
+    .competence_texte{
+        margin-right: 0% !important;
+        width: auto !important;
+        margin-bottom: 20%;
+    }
+
+    .bloc_progress_bar{
+        width: auto !important;
+        padding: 4%;
+    }
+
+    .projets{
+        height: 1500px;
+    }
+
+    .groupe-projet{
+        margin-left: 0px!important;
+    }
+
+    .projet_card{
+        width: auto;
+        margin-bottom: 30%;
+    }
+
+    .titre_projet{
+        margin-top: 0px;
+    }
+
+    .annonce{
+        height: 350px;
+    }
+
+    .info-annonce {
+        width: 90%!important;
+        height: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pub{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .lien-pub a{
+        margin-top: 10%;
+        width: 100%;
+        height: 60%;
+        margin-left: 0% !important;
+    }
+
+    .lien-pub{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .texte-lien{
+        margin-top: 0px;
+    }
+}
