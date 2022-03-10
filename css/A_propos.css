@@ -13,6 +13,8 @@ body {
 
 .titre{
     color: aliceblue;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 .info-perso {
@@ -118,13 +120,36 @@ body {
     font-size: 30px;
     text-decoration: none;
     border: 1px solid rgb(255, 255, 255);
-    border-radius: 15px;
+    border-radius: 4px;
     padding: 10px;
+    transition: ease-out 0.3s;
+    outline: none;
+    position: relative;
+    z-index: 1;
 }
 
 .lien_pub:hover{
-    background-color: azure;
     color: rgb(63, 63, 63);
+}
+
+.lien_pub:before {
+    transition: 0.8s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: rgb(245, 245, 245);
+}
+
+.lien_pub:hover:before {
+    transition: 0.8s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
 }
 
 @media screen and (min-width : 768px) and (max-width: 1366px) {

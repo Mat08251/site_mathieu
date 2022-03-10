@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
@@ -290,6 +289,9 @@ h1{
     height: 60%;
     background-color: #10b0bb;
     border-color: #1d1d1d54;
+    box-shadow: inset 0 0 0 0 rgb(2, 113, 121) !important;
+    transition: ease-out 0.8s !important;
+    outline: none;
 }
 
 .texte-lien{
@@ -298,10 +300,9 @@ h1{
 }
 
 .btn:hover{
-    background-color: #066169!important;
-    transition: 1s;
+    box-shadow: inset 300px 0 0 0 rgb(2, 113, 121) !important;
     border-color: #1d1d1d!important;
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.329);
+   background-color: rgb(2, 113, 121) !important;
 }
 
 

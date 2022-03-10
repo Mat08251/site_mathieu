@@ -9,6 +9,7 @@ body{
 .titre_page{
     color: azure;
     font-size: 60px;
+    margin-top: 10%;
 }
 
 .card-group{
