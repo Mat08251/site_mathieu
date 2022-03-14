@@ -69,11 +69,15 @@ body{
 .btn{
     color: azure;
     background-color: rgb(18, 175, 175);
+    box-shadow: inset 0 0 0 0 rgb(2, 113, 121) !important;
+    transition: ease-out 0.8s !important;
+    outline: none;
 }
 
 .btn:hover{
-    background-color: rgb(15, 128, 128);
+    background-color: rgb(19, 146, 146);
     transition: 1s;
+    box-shadow: inset 300px 0 0 0 rgb(19, 146, 146) !important;
 }
 
 @media all and (max-device-width: 736px)
