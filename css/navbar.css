@@ -1,13 +1,14 @@
 .navbar{
     background-color: rgba(17, 17, 17, 0.89);
     width: 100%;
-  
     position: fixed;
 }
 
 .navbar-toggler{
     border-color: rgb(151, 151, 151);
+    color: rgb(18, 134, 134) !important;
 }
+
 
 .nav-item{
     margin-left: 240px;
@@ -17,13 +18,12 @@
     color: rgba(255, 255, 255, 0.863);
     font-size: 20px;
     transition-property: font-size !important;
-  transition-duration: 4s !important;
-  transition-delay: 2s !important;
+  transition-duration: 1s !important;
 }
 
 .nav-link:hover{
-    color: rgb(4, 142, 177);
-    font-size: 36px !important;
+    color: rgb(4, 142, 177) !important;
+    font-size: 30px !important;
 }
 
 

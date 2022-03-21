@@ -17,6 +17,12 @@
     margin: 10px;
 }
 
+.fab:hover{
+    color: rgb(17, 100, 100);
+    transition-duration: 1s;
+    font-size: 40px;
+}
+
 .far{
     color: rgb(128, 128, 128);
     font-size: 15px;
