@@ -40,6 +40,32 @@
         </div>
       </nav>
 
+      <?php
+        if(isset($_GET['reg_err']))
+        {
+          $err = htmlspecialchars($_GET['reg_err']);
+
+          switch($err)
+          {
+            case 'success' :
+                ?>
+                <div class="alert alert-success mx-auto col-3">
+                    <strong>Succès</strong> message envoyé
+                </div>
+                <?php
+              break;
+
+            case 'email_length' :
+                ?>
+                <div class="alert alert-danger mx-auto col-3">
+                    <strong>Erreur</strong> email trop long
+                </div>
+              <?php
+              break;
+          }
+        }
+      ?>
+
       <h1 class="titre_page text-center">Me contacter</h1>
 
       <div class="container-fluid">
