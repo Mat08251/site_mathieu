@@ -24,16 +24,16 @@
                 <a class="nav-link" href="../index.html">Accueil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="A_propos.html">A Propos</a>
+                <a class="nav-link" href="../html/A_propos.html">A Propos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Services.html">Services</a>
+                <a class="nav-link" href="../html/Services.html">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                <a class="nav-link" href="../html/Portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Contact.html">Contact</a>
+                <a class="nav-link" href="Contact.php">Contact</a>
               </li>
             </ul>
           </div>
