@@ -27,6 +27,7 @@ body {
     margin-top: 50px;
     margin-left: 180px;
     margin-bottom: 80px;
+    border-radius: 10%;
 }
 
 .texte_infoperso {
@@ -195,6 +196,10 @@ body {
 }
 
 @media all and (max-device-width: 736px) {
+    .titre{
+        margin-top: 20%!important;
+    }
+    
     .info-perso {
         flex-direction: column;
     }

@@ -57,6 +57,7 @@
 
 .profil{
     border-radius: 50%;
+    width: 60%;
 }
 
 .description{
@@ -330,15 +331,16 @@ h1{
     }
 
     .projet_portfolio{
-        margin-left: 14%;
+        margin-left: 0%;
     }
 
     .groupe-projet{
         flex-direction: column;
+        width: auto!important;
     }
 
     .projet_card{
-        width: 280%;
+        width: 250%;
         margin-bottom: 40%;
     }
 
@@ -391,6 +393,10 @@ h1{
         margin-left: 5%;
         margin-top: 5% !important;
     }
+
+     .profil{
+         margin-left: 18%;
+     }
 
     .bloc_description{
         margin-left: auto !important;

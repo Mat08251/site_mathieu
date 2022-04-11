@@ -46,6 +46,10 @@ body{
 }
 
 @media all and (max-device-width: 736px){
+    .titre_page{
+        margin-top: 20%;
+    }
+    
     .card-group{
         flex-direction: column;
     }
