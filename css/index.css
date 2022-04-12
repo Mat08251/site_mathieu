@@ -370,7 +370,7 @@ h1{
 
 @media all and (max-device-width: 736px){
     .carousel-item{
-        height: 260px;
+        height: auto;
     }
 
     .titre_slide{
@@ -459,7 +459,7 @@ h1{
     }
 
     .projets{
-        height: 1500px;
+        height: 850px;
     }
 
     .groupe-projet{
@@ -468,7 +468,12 @@ h1{
 
     .projet_card{
         width: auto;
+        height: auto;
         margin-bottom: 30%;
+    }
+
+    .card-img{
+        height: 200px;
     }
 
     .titre_projet{
@@ -488,7 +493,7 @@ h1{
 
     .pub{
         flex-direction: column;
-        margin-top: 40px;
+        margin-top: auto;
     }
 
     .lien-pub a{
