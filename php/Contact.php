@@ -70,7 +70,7 @@
 
       <div class="container-fluid">
         <p class="texte_info text-white">
-          Une Idée de site? Un projet? N'hésitez à me demander un <span class="mot_important"> devis gratuit !</span>
+          Une idée de site? Un projet? N'hésitez à me demander un <span class="mot_important"> devis gratuit !</span>
         </p>
       </div>
 
@@ -82,18 +82,18 @@
               <input type="text" class="form-control nom " name="nom" id="nom" placeholder="Entrer votre nom">
             </div>
             <div class="mb-4">
-              <label for="prenom" class="form-label">Prenom</label>
+              <label for="prenom" class="form-label">Prénom</label>
               <input type="text" class="form-control prenom " name="prenom" id="prenom" placeholder="Entrer votre prenom">
             </div>
           </div>
 
           <div class="mb-4">
-            <label for="tel" class="form-label">Telephone</label>
-            <input type="tel" class="form-control phone" name="tel" id="tel" placeholder="Entrer votre numero de telephone">
+            <label for="tel" class="form-label">Télephone</label>
+            <input type="tel" class="form-control phone" name="tel" id="tel" placeholder="Entrer votre numéro de telephone">
           </div>
 
           <div class="mb-4">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <label for="exampleInputEmail1" class="form-label">E-mail</label>
             <input type="email" class="form-control email" name="email" id="email" placeholder="Entrer votre email">
           </div>
           

@@ -22,13 +22,13 @@ if (!empty($_POST["message"]) AND !empty($_POST["nom"])) {
                 $retour = mail("bibi080@live.fr", $sujet, $titre, "Reply-to:" . $_POST["email"]);
                 if ($retour) {
                     
-                    header('location: ../html/Contact.php?reg_err=success');
+                    header('location: Contact.php?reg_err=success');
                 }
             }
         }
         else
         {
-            header('location: ../html/Contact.php?reg_err=email_length');
+            header('location: Contact.php?reg_err=email_length');
         }
 }
    ?>
