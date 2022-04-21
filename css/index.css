@@ -221,8 +221,9 @@ h1{
 
 .groupe-projet{
     margin: 0%!important;
-    margin-top: 80px!important;
-    margin-left: 18%!important;
+    margin-top: 30px!important;
+    margin-left: 4.5%!important;
+    width: auto !important;
 }
 
 .projet_card{
@@ -264,7 +265,7 @@ h1{
 
 .pub{
     display: flex;
-    margin-top: 70px;
+    margin-top: 55px;
 }
 
 .texte-pub{
@@ -296,7 +297,7 @@ h1{
 }
 
 .texte-lien{
-    margin-top: 18px;
+    margin-top: 23px;
     font-size: 22px;
 }
 
@@ -340,9 +341,10 @@ h1{
     }
 
     .projet_card{
-        width: 250%;
+        width: 190%;
         margin-bottom: 40%;
     }
+
 
     .annonce{
         height: 400px;
