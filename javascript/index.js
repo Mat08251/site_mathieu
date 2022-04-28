@@ -6,21 +6,21 @@ sr.reveal('.titre_qui_suisje, .titre_section_service, .titre_section_competences
     origin: 'top',
     distance: '20px',
     reset: true,
-    duration: 2500
+    duration: 2200
 });
 
 sr.reveal('.description', {
     origin: 'right',
     distance: '50px',
     reset: true,
-    duration: 2500,
+    duration: 2200,
     mobile: false
 });
 
 const pr = ScrollReveal({
     delay: 200,
     reset: true,
-    duration: 3500
+    duration: 2000
 });
 
 pr.reveal('.texte_para', {
@@ -35,7 +35,7 @@ pr.reveal('.texte_para3', {
 sr.reveal('.bloc_design, .bloc_dev, .bloc_referencement', {
     scale:0.5,
     reset: true,
-    duration: 2500
+    duration: 2000
 });
 
 
@@ -43,20 +43,20 @@ sr.reveal('.competence_texte', {
     origin: 'left',
     distance: '100px',
     reset: true,
-    duration: 2800
+    duration: 2500
 });
 
 sr.reveal('.progress', {
     origin: 'right',
     distance: '100px',
     reset: true,
-    duration: 2800,
+    duration: 2500,
     mobile: false
 });
 
 sr.reveal('.projet_card', {
-    delay: 600,
-    interval: 500,
+    delay: 400,
+    interval: 400,
     reset: false
 }, 500);
 

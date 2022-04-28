@@ -9,9 +9,9 @@
     color: rgb(18, 134, 134) !important;
 }
 
-
 .nav-item{
-    margin-left: 240px;
+    margin-right: 110px;
+    width: 138px;
 }
 
 .nav-link{
@@ -32,15 +32,9 @@
     .nav-item{
         margin-left: 0px;
     }
-}
 
-@media screen and (min-width: 1024px) and (max-width: 1366px){
-    .bloc_navbar{
-        width: auto;
-    }
-
-    .nav-item{
-        margin-left: 50px;
+    .navbar-nav {
+        text-align: left !important;
     }
 }
 
