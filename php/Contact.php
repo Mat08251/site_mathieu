@@ -13,27 +13,27 @@
     <link rel="stylesheet" href="../css/Contact.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="bloc_navbar container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container-fluid bloc_navbar">
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav  mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mx-auto text-center  mb-2">
               <li class="nav-item">
-                <a class="nav-link" href="../index.html">Accueil</a>
+                <a class="nav-link" href="index.html">Accueil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../html/A_propos.html">A Propos</a>
+                <a class="nav-link" href="html/A_propos.html">A Propos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../html/Services.html">Services</a>
+                <a class="nav-link" href="html/Services.html">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../html/Portfolio.html">Portfolio</a>
+                <a class="nav-link" href="html/Portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Contact.php">Contact</a>
+                <a class="nav-link" href="php/Contact.php">Contact</a>
               </li>
             </ul>
           </div>

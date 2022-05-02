@@ -41,7 +41,11 @@
 
 /*media responsive telephone iphone*/
 @media all and (max-device-width: 715px){
+    .navbar-nav{
+        text-align: start !important;
+    }
+    
     .nav-item{
-        margin-left: 0px;
+        width: 100px;
     }
 }

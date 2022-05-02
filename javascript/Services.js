@@ -13,33 +13,33 @@ sr.reveal('.texte_accroche', {
 });
 
 sr.reveal('.titre_objectif', {
-    duration: 2500,
+    duration: 2400,
     distance: '40px',
     origin: 'top'
 });
 
 sr.reveal('.texte_objectif', {
-    duration: 2500,
+    duration: 2400,
     distance: '40px',
     origin: 'left'
 });
 
 sr.reveal('.bloc_maquettage', {
-    duration: 2500,
+    duration: 2300,
     origin: 'right',
     distance: '50px',
     reset: true,
     mobile: false,
-    delay: 500
+    delay: 300
 });
 
 sr.reveal('.bloc_developpement', {
-    duration: 2500,
+    duration: 2300,
     origin: 'left',
     distance: '50px',
     reset: true,
     mobile: false,
-    delay: 500
+    delay: 300
 });
 
 sr.reveal('.titre_rdv', {
@@ -50,23 +50,23 @@ sr.reveal('.titre_rdv', {
 })
 
 sr.reveal('.texte_rdv', {
-    duration: 2500,
+    duration: 2300,
     origin: 'bottom',
     distance: '30px',
     reset: true,
-    delay: 500
+    delay: 200
 })
 
 sr.reveal('.btn', {
-    duration: 2500,
+    duration: 2300,
     distance: '30px',
     scale: 0.2,
     reset: true,
-    delay: 500
+    delay: 200
 })
 
 const st = ScrollReveal({
-    duration: 2500,
+    duration: 2300,
     reset: true,
     scale: 0.3
 });

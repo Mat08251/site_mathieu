@@ -8,6 +8,6 @@ sr.reveal('.titre_page', {
 });
 
 sr.reveal('.texte_info', {
-    duration: 2500,
+    duration: 2400,
     distance: '30px'
 });

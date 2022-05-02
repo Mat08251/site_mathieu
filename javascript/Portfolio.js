@@ -8,6 +8,6 @@ sr.reveal('.titre_page', {
 });
 
 sr.reveal('.card', {
-    delay: 500,
-    interval: 700
+    delay: 300,
+    interval: 600
 }, 500);
