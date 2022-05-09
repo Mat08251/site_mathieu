@@ -3,12 +3,23 @@
 }
 
 .sociaux{
-    text-align: end;
+   text-align: center;
+}
+
+.test{
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .texte{
     color: azure;
+    display: flex;
     text-align: center;
+    
+}
+
+.info-footer{
+   
 }
 
 .fab{

@@ -222,12 +222,18 @@ h1{
 .groupe-projet{
     margin: 0%!important;
     margin-top: 30px!important;
-    margin-left: 4.5%!important;
+    margin-left: 11.5%!important;
     width: auto !important;
 }
 
 .projet_card{
-    width: 90%;
+    max-width: 65ch;
+    overflow: hidden;
+    transition: transform 500ms ease;
+}
+
+.projet_card:hover{
+    transform: scale(1.05);
 }
 
 .card-img{
@@ -240,6 +246,11 @@ h1{
 
 .card-text, .card-title{
     color: aliceblue;
+}
+
+.card-img-overlay:hover{
+    font-size: 20px;
+    transition-duration: 1s !important;
 }
 
 
