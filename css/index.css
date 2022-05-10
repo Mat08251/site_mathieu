@@ -214,22 +214,27 @@ h1{
 
 .projets{
     height: 500px;
-    width: 100%;
     background-image: url("../img/fond.jpg");
     background-size: cover;
 }
 
 .groupe-projet{
-    margin: 0%!important;
     margin-top: 30px!important;
-    margin-left: 11.5%!important;
     width: auto !important;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.projet_portfolio{
+    margin: 0%!important;
 }
 
 .projet_card{
     max-width: 65ch;
     overflow: hidden;
     transition: transform 500ms ease;
+    margin: 5%;
 }
 
 .projet_card:hover{
@@ -343,7 +348,7 @@ h1{
     }
 
     .projets{
-        height: 1500px;
+        height: 850px;
     }
 
     .projet_portfolio{
@@ -353,11 +358,12 @@ h1{
     .groupe-projet{
         flex-direction: column;
         width: auto!important;
+        margin-left: 14%!important;
     }
 
     .projet_card{
         width: 190%;
-        margin-bottom: 40%;
+        margin-bottom: 10%;
     }
 
 
@@ -476,7 +482,7 @@ h1{
     }
 
     .projets{
-        height: 850px;
+        height: 700px;
     }
 
     .groupe-projet{
