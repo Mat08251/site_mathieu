@@ -222,8 +222,7 @@ h1{
     margin-top: 30px!important;
     width: auto !important;
     display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 12%;
 }
 
 .projet_portfolio{
@@ -234,7 +233,7 @@ h1{
     max-width: 65ch;
     overflow: hidden;
     transition: transform 500ms ease;
-    margin: 5%;
+    margin: 2%;
 }
 
 .projet_card:hover{
@@ -254,7 +253,7 @@ h1{
 }
 
 .card-img-overlay:hover{
-    font-size: 20px;
+    font-size: 18px;
     transition-duration: 1s !important;
 }
 
@@ -487,10 +486,14 @@ h1{
 
     .groupe-projet{
         margin-left: 0px!important;
+        flex-direction: column;
+    }
+
+    .projet_portfolio {
+        width: auto!important;
     }
 
     .projet_card{
-        width: auto;
         height: auto;
         margin-bottom: 30%;
     }

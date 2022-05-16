@@ -8,6 +8,7 @@ body{
 
 .alert{
     margin-top: 80px !important;
+    width: auto;
 }
 
 .titre_page{
@@ -90,6 +91,14 @@ body{
         background-size: cover;
     }
 
+    .alert{
+        width: 53%;
+    }
+
+    .formulaire{
+        width: 80%!important;
+    }
+
     .debut_formulaire{
         flex-direction: column;
     }
@@ -99,11 +108,15 @@ body{
     }
 
     .nom, .prenom, .phone, .email{
-        width: 80% !important;
+        width: 90% !important;
     }
 }
 
 @media screen and (min-width : 768px) and (max-width: 1366px){
+    .alert{
+        width: 28%;
+    }
+    
     .phone{
         width: 75% !important;
     }
