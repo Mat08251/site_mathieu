@@ -9,6 +9,11 @@
     color: rgb(18, 134, 134) !important;
 }
 
+.logo{
+    width: 4%!important;
+    margin-left: 30px;
+}
+
 .nav-item{
     margin-right: 110px;
     width: 138px;
@@ -29,6 +34,10 @@
 
 /*media responsive tablette ipad*/
 @media screen and (min-width: 768px) and (max-width: 1366px){
+    .logo {
+        width: 5%!important;
+    }
+    
     .nav-item{
         margin-left: 0px;
     }
@@ -45,6 +54,10 @@
         text-align: start !important;
     }
     
+    .logo{
+        width: 10%!important;
+    }
+
     .nav-item{
         width: 100px;
     }
