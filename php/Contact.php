@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="../css/Contact.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <!--début de la navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
       <div class="container-fluid bloc_navbar">
           <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
@@ -40,6 +41,7 @@
           </div>
         </div>
       </nav>
+      <!--Fin de la navbar-->
 
       <?php
         if(isset($_GET['reg_err']))
