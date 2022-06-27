@@ -43,6 +43,8 @@
       </nav>
       <!--Fin de la navbar-->
 
+
+      <!--message d'envoie ou d'erreur du mail-->
       <?php
         if(isset($_GET['reg_err']))
         {
@@ -69,14 +71,19 @@
         }
       ?>
 
+
+    <!--titre de la page-->
       <h1 class="titre_page text-center">Me contacter</h1>
 
+    <!--phrase d'information-->
       <div class="container-fluid">
         <p class="texte_info text-white">
           Une idée de site? Un projet? N'hésitez à me demander un <span class="mot_important"> devis gratuit !</span>
         </p>
       </div>
 
+
+    <!--Début du formulaire-->
       <div class="container-fluid">
         <form class="formulaire" action="../php/mail.php" method="post">
           <div class="debut_formulaire">
@@ -107,33 +114,41 @@
           <button type="submit" class="btn">Envoyer</button>
         </form>
       </div>
+    <!--Fin du formulaire-->
     
+
+    <!--Début du bloc footer-->
       <footer>
-      <div class="footer container-fluid">
-        <div class="row ">
-        <div class="sociaux">
-          <a class="icon-sociaux" href="https://www.facebook.com/mathieu.duguet.3"><i class="fab fa-facebook-square"></i></a>
-          <a class="icon-sociaux" href="http://"><i class="fab fa-instagram-square"></i></a>
-          <a class="icon-sociaux" href="http://"><i class="fab fa-linkedin"></i></a>
+        <div class="footer container-fluid">
+
+        <!--section info footer-->
+          <div class="row ">
+          <div class="sociaux">
+            <a class="icon-sociaux" href="https://www.facebook.com/mathieu.duguet.3"><i class="fab fa-facebook-square"></i></a>
+            <a class="icon-sociaux" href="http://"><i class="fab fa-instagram-square"></i></a>
+            <a class="icon-sociaux" href="http://"><i class="fab fa-linkedin"></i></a>
+          </div>
         </div>
-      </div>
-        <div  class="texte col-12">
-          <p class="info-footer col-sm-4">
-            <i class="coordonnees fas fa-phone-alt"></i>07-70-03-42-93
-          </p>
-          <p class="info-footer col-sm-4">DUGUET Mathieu <br>
-            <i class="coordonnees fas fa-map-marker-alt"></i>23 Lotissement les longs paquis<br>
-            08140 Brévilly
-          </p> 
-          <p class="info-footer col-sm-4">
-            <i class="coordonnees fas fa-envelope"></i>m.duguet808@laposte.net</p>
-          </p>
-            
-        
-        </div>
-        <p class="copy text-center">Copyright<i class="far fa-copyright"></i>DUGUET Mathieu-2021</p>
-      </div> 
-    </footer>
+          <div  class="texte col-12">
+            <p class="info-footer col-sm-4">
+              <i class="coordonnees fas fa-phone-alt"></i>07-70-03-42-93
+            </p>
+            <p class="info-footer col-sm-4">DUGUET Mathieu <br>
+              <i class="coordonnees fas fa-map-marker-alt"></i>23 Lotissement les longs paquis<br>
+              08140 Brévilly
+            </p> 
+            <p class="info-footer col-sm-4">
+              <i class="coordonnees fas fa-envelope"></i>m.duguet808@laposte.net</p>
+            </p>
+          </div>
+        <!--Fin section info footer-->
+
+          <p class="copy text-center">Copyright<i class="far fa-copyright"></i>DUGUET Mathieu-2021</p>
+        </div> 
+      </footer>
+    <!--Fin du bloc footer-->
+
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7d77d119e1.js" crossorigin="anonymous"></script>

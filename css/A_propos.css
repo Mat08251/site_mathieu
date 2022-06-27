@@ -7,6 +7,7 @@ body {
     background-size: cover;
 }
 
+/*section à propos*/
 .section_perso{
     padding: 0%;
 }
@@ -35,7 +36,10 @@ body {
     margin-left: 18%;
     margin-top: 4%;
 }
+/*Fin section à propos*/
 
+
+/*bloc compétence*/
 .bloc{
     height: 690px;
 }
@@ -82,6 +86,7 @@ body {
     margin-left: 58%;
 }
 
+/*titre et texte des blocs*/
 .titre_bloc {
     color: azure;
     margin-bottom: 50px;
@@ -91,7 +96,11 @@ body {
     color: azure;
     margin-bottom: 0%!important;
 }
+/*Fin du bloc titre et texte*/
+/*Fin bloc compétences*/
 
+
+/*bloc pub*/
 .bloc_pub{
     background-color: rgb(47, 186, 211);
     height: 330px;
@@ -111,6 +120,7 @@ body {
     font-size: 20px;
 }
 
+/*lien pub*/
 .lien{
     text-align: center;
     margin-top: 40px;
@@ -152,8 +162,13 @@ body {
     opacity: 1;
     z-index: -1;
 }
+/*Fin lien pub*/
+/*Fin bloc pub*/
 
+
+/*media responsive tablette ipad*/
 @media screen and (min-width : 768px) and (max-width: 1366px) {
+    /*section à propos*/
     .info-perso {
         flex-direction: column;
     }
@@ -169,7 +184,10 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+    /*Fin section à propos*/
 
+
+    /*bloc compétences*/
     .bloc{
         margin-top: 40%;
         margin-bottom: 100%;
@@ -189,13 +207,19 @@ body {
         width: 34%;
         height:  390px;
     }
+    /*Fin bloc compétences*/
 
+
+    /*section pub*/
     .bloc_pub{
         height: 380px;
     }
 }
 
+
+/*media responsive telephone iphone*/
 @media all and (max-device-width: 736px) {
+    /*section à propos*/
     .titre{
         margin-top: 20%!important;
     }
@@ -216,7 +240,10 @@ body {
         margin-right: auto;
         padding: 5%;
     }
+    /*Fin section à propos*/
 
+
+    /*bloc compétences*/
     .bloc{
         margin-top: 100%;
         margin-bottom: 250%;
@@ -244,7 +271,10 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+    /*Fin bloc compétences*/
 
+
+    /*bloc section pub*/
     .bloc_pub{
         height: 490px;
     }
@@ -256,4 +286,5 @@ body {
     .lien_pub{
         font-size: 20px;
     }
+    /*Fin bloc section pub*/
 }

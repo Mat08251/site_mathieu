@@ -6,17 +6,21 @@ body{
     background-size: cover;
 }
 
+/*message d'alert envoie du mail*/
 .alert{
     margin-top: 80px !important;
     width: auto;
 }
 
+
+/*titre de la page*/
 .titre_page{
     color: azure;
     margin-top: 12%;
     font-size: 60px;
 }
 
+/*section phrase info*/
 .texte_info{
    text-align: center;
     margin-right: auto;
@@ -29,7 +33,10 @@ body{
     color: rgb(25, 173, 173);
     font-weight: bolder;
 }
+/*Fin de la section phrase info*/
 
+
+/*bloc formulaire*/
 .formulaire{
     width: 50%;
     margin-right: auto;
@@ -71,6 +78,7 @@ body{
     border-radius: 20px 20px;
 }
 
+/*bouton d'envoie du formulaire*/
 .btn{
     color: azure;
     background-color: rgb(18, 175, 175);
@@ -84,17 +92,24 @@ body{
     transition: 1s;
     box-shadow: inset 300px 0 0 0 rgb(19, 146, 146) !important;
 }
+/*Fin du bloc formulaire*/
 
+
+
+/*media responsive telephone iphone*/
 @media all and (max-device-width: 736px)
 {
     body{
         background-size: cover;
     }
 
+    /*message d'envoie du formulaire*/
     .alert{
         width: 53%;
     }
 
+
+    /*bloc du formulaire*/
     .formulaire{
         width: 80%!important;
     }
@@ -112,11 +127,15 @@ body{
     }
 }
 
+
+/*media responsive tablette ipad*/
 @media screen and (min-width : 768px) and (max-width: 1366px){
+    /*message d'envoi du formulaire*/
     .alert{
         width: 28%;
     }
     
+    /*champ telephone formulaire*/
     .phone{
         width: 75% !important;
     }

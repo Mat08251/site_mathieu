@@ -5,13 +5,14 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-
+ /*titre de la page*/
 .titre_page{
     color: azure;
     font-size: 60px;
     margin-top: 10%;
 }
 
+/*bloc projet card*/
 .card-group{
     margin-top: 80px;
     margin-bottom: 80px;
@@ -24,6 +25,7 @@ body{
     color: azure;
 }
 
+/*bouton lien du projet*/
 .lien_projet{
     text-align: right;
 }
@@ -44,12 +46,18 @@ body{
     border-color: #f1f1f1!important;
     
 }
+/*Fin du bouton lien du projet*/
+/*Fin bloc projet card*/
 
+
+/*media responsive telephone iphone*/
 @media all and (max-device-width: 736px){
+    /*titre de la page*/
     .titre_page{
         margin-top: 20%;
     }
     
+    /*card projet*/
     .card-group{
         flex-direction: column;
     }
@@ -59,7 +67,10 @@ body{
     }
 }
 
+
+/*media responsive tablette ipad*/
 @media screen and (min-width : 768px) and (max-width: 1366px){
+    /*card projet*/
     .card-group{
         flex-direction: column;
     }

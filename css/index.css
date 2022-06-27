@@ -102,7 +102,10 @@
     color: white;
     text-shadow: black 2px 2px ;
 }
+/*Fin du bloc parallax*/
 
+
+/*Bloc service*/
 .service{
     height: 530px;
     width: 100%;
@@ -129,18 +132,23 @@
 .titre_service{
     padding-top: 8%!important;
 }
+/*Fin bloc service*/
 
+/*sous-titre des services*/
 h3{
     color: rgb(196, 196, 196);
     padding-top: 30%;
 }
-
+ 
+/*Titre des sections du site*/
 h1{
     color: rgb(216, 216, 216);
     text-align: center;
     padding-top: 2%;
 }
 
+
+/*bloc parallax*/
 #para2{
     background-image: url("../img/developpement.jpg");
     width: 100%;
@@ -151,6 +159,8 @@ h1{
     opacity: 0.9;
 }
 
+
+/*Bloc section compétences*/
 .competences{
     height: 500px;
     width: 100%;
@@ -176,6 +186,7 @@ h1{
     margin-right: 0%!important;
 }
 
+/*Partie barre des compétences*/
 .progress{
     margin-top: 10px;
     height: 30px!important;
@@ -204,8 +215,11 @@ h1{
 @keyframes animate-positive{
     0%{ width: 0; }
 }
+/*Fin partie barre des compétences*/
+/*Fin bloc section compétences*/
 
 
+/*Bloc parallax*/
 #para3{
     background-image: url("../img/design.jpg");
     width: 100%;
@@ -223,7 +237,10 @@ h1{
     color: white;
     text-shadow: black 2px 2px ;
 }
+/*Fin bloc  parallax*/
 
+
+/*Bloc section projets*/
 .projets{
     height: 500px;
     background-image: url("../img/fond.jpg");
@@ -241,6 +258,7 @@ h1{
     margin: 0%!important;
 }
 
+/*bloc card projet*/
 .projet_card{
     max-width: 65ch;
     overflow: hidden;
@@ -268,9 +286,11 @@ h1{
     font-size: 18px;
     transition-duration: 1s !important;
 }
+/*Fin bloc card projet*/
+/*Fin bloc section projets*/
 
 
-
+/*Bloc parallax*/
 #para4{
     background-image: url("../img/para4.jpg");
     width: 100%;
@@ -281,6 +301,8 @@ h1{
     opacity: 0.9;
 }
 
+
+/*Bloc annonce*/
 .annonce{
     height: 500px;
     background-image: url("../img/fond.jpg");
@@ -293,7 +315,10 @@ h1{
     margin-left: 25%;
     background-color: #1d1d1d!important;
 }
+/*Fin bloc annonce*/
 
+
+/*bloc section pub*/
 .pub{
     display: flex;
     margin-top: 55px;
@@ -317,6 +342,7 @@ h1{
     font-size: 18px;
 }
 
+/*partie lien pub*/
 .lien-pub a{
     width: 100%;
     height: 60%;
@@ -337,18 +363,24 @@ h1{
     border-color: #1d1d1d!important;
    background-color: rgb(2, 113, 121) !important;
 }
+/*Fin partie lien pub*/
+/*Fin bloc section pub*/
+
 
 /*media responsive tablette ipad*/
 @media screen and (min-width : 768px) and (max-width: 1366px){
+    /*carousel*/
     .carousel-item{
         height: 510px;
     }
 
+    /*photo de profil*/
     .photo{
         margin-left: 10%;
         margin-right: 5%;
     }
 
+    /*partie compétences*/
     .info_competences{
         padding-left: 10%;
     }
@@ -357,7 +389,10 @@ h1{
         width: 40% !important;
         margin-right: 10%;
     }
+    /*Fin partie compétences*/
 
+
+    /*partie projets*/
     .projets{
         height: 850px;
     }
@@ -376,8 +411,10 @@ h1{
         width: 190%;
         margin-bottom: 10%;
     }
+    /*Fin partie projets*/
 
 
+    /*partie annonce*/
     .annonce{
         height: 400px;
     }
@@ -385,7 +422,9 @@ h1{
     .info-annonce {
         height: 80%;
     }
+    /*Fin partie annonce*/
 
+    /*partie pub*/
     .pub{
         flex-direction: column;
         margin-top: 40px;
@@ -400,10 +439,12 @@ h1{
     .lien-pub a{
         height: 100%;
     }
+    /*Fin partie pub*/
 }
 
 /*media responsive telephone iphone*/
 @media all and (max-device-width: 736px){
+    /*carousel*/
     .carousel-item{
         height: auto;
     }
@@ -416,13 +457,16 @@ h1{
         font-size: 22px;
         margin-bottom: 10%;
     }
+    /*Fin carousel*/
 
+    /*Partie présentation*/
     .presentation{
        flex-direction: column;
         height: 1000px;
         background-size: cover;
     }
-
+    
+    /*Photo de profil*/
     .photo{
         width: auto !important;
         margin-left: 5%;
@@ -449,11 +493,14 @@ h1{
         text-align: center;
         margin-left: 0%;
     }
+    /*Fin partie présentation*/
 
+    /*texte parallax index*/
     .texte_para{
         font-size: 40px;
     }
 
+    /*Partie service*/
     .service{
         height: 800px;
     }
@@ -471,7 +518,10 @@ h1{
     .bloc_design, .bloc_dev, .bloc_referencement{
         width: auto !important;
     }
+    /*Fin partie service*/
 
+
+    /*Partie compétences*/
     .competences{
         height: 850px;
         background-size: cover;
@@ -488,11 +538,15 @@ h1{
         margin-bottom: 20%;
     }
 
+    /*barre de compétences*/
     .bloc_progress_bar{
         width: auto !important;
         padding: 4%;
     }
+    /*Fin partie compétences*/
 
+
+    /*Partie projets*/
     .projets{
         height: 700px;
     }
@@ -506,6 +560,7 @@ h1{
         width: auto!important;
     }
 
+    /*card projets*/
     .projet_card{
         height: auto;
         margin-bottom: 30%;
@@ -518,7 +573,11 @@ h1{
     .titre_projet{
         margin-top: 0px;
     }
+    /*Fin des cards projets*/
+    /*Fin partie projets*/
 
+
+    /*Partie annonce*/
     .annonce{
         height: 350px;
     }
@@ -529,7 +588,10 @@ h1{
         margin-left: auto;
         margin-right: auto;
     }
+    /*Fin partie annonce*/
 
+
+    /*Partie pub*/
     .pub{
         flex-direction: column;
         margin-top: auto;
@@ -550,4 +612,5 @@ h1{
     .texte-lien{
         margin-top: 0px;
     }
+    /*Fin partie pub*/
 }
