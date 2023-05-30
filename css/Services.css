@@ -257,6 +257,10 @@ body{
        flex-direction: column !important;
     }
 
+    .bloc_developpement{
+        margin-top: 20%;
+    }
+
     .developpement_descriptif{
         margin-left: auto;
         margin-right: auto;

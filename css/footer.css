@@ -56,3 +56,16 @@
         flex-direction: column;
     }
 }
+
+@media only screen and (max-width: 1315px){
+    .info-phone{
+        margin-top: 4%!important;
+    }
+}
+
+/*media responsive tablette ipad*/
+@media screen and (min-width : 768px) and (max-width: 1366px){
+    .info-phone{
+        margin-top: 0%!important;
+    }
+}

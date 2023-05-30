@@ -135,7 +135,7 @@
         <!--section info footer-->
           <div class="row ">
           <div class="sociaux">
-            <a class="icon-sociaux" href="https://www.facebook.com/mathieu.duguet.3"><i class="fab fa-facebook-square"></i></a>
+            <a class="icon-sociaux" href="https://www.facebook.com/profile.php?id=100092478684599"><i class="fab fa-facebook-square"></i></a>
             <a class="icon-sociaux" href="http://"><i class="fab fa-instagram-square"></i></a>
             <a class="icon-sociaux" href="http://"><i class="fab fa-linkedin"></i></a>
           </div>

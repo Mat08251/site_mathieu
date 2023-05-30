@@ -19,7 +19,7 @@ if (!empty($_POST["message"]) AND !empty($_POST["nom"])) {
                     Message : " . $_POST["message"];
                     $sujet = "Salut";
 
-                $retour = mail("bibi080@live.fr", $sujet, $titre, "Reply-to:" . $_POST["email"]);
+                $retour = mail("md.developpementweb@gmail.com", $sujet, $titre, "Reply-to:" . $_POST["email"]);
                 if ($retour) {
                     
                     header('location: Contact.php?reg_err=success');

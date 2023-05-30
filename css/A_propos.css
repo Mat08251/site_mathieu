@@ -214,6 +214,10 @@ body {
     .bloc_pub{
         height: 380px;
     }
+
+    .titre_pub {
+        font-size: 35px;
+    }
 }
 
 
@@ -276,7 +280,7 @@ body {
 
     /*bloc section pub*/
     .bloc_pub{
-        height: 490px;
+        height: 270px;
     }
 
     .titre_pub{

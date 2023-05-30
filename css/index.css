@@ -141,7 +141,7 @@ h3{
 }
  
 /*Titre des sections du site*/
-h1{
+h1, .titre-competence-progress{
     color: rgb(216, 216, 216);
     text-align: center;
     padding-top: 2%;
@@ -181,7 +181,7 @@ h1{
 .info_competences{
     display: flex;
     padding-left: 20%;
-    margin-top: 70px!important;
+    margin-top: 30px!important;
     text-align: center;
     margin-right: 0%!important;
 }
@@ -383,6 +383,7 @@ h1{
     /*partie compétences*/
     .info_competences{
         padding-left: 10%;
+        margin-top: 20px!important;
     }
 
     .competence_texte{
@@ -394,7 +395,7 @@ h1{
 
     /*partie projets*/
     .projets{
-        height: 850px;
+        height: 750px;
     }
 
     .projet_portfolio{
@@ -403,8 +404,7 @@ h1{
 
     .groupe-projet{
         flex-direction: column;
-        width: auto!important;
-        margin-left: 14%!important;
+        width: auto!important;   
     }
 
     .projet_card{
@@ -440,6 +440,13 @@ h1{
         height: 100%;
     }
     /*Fin partie pub*/
+}
+
+/*media responsive telephone iPad Pro*/
+@media screen and (min-width : 1024px) and (max-width: 1366px) {
+    .projet_card {
+        margin-left: 24%;
+    }
 }
 
 /*media responsive telephone iphone*/
@@ -535,13 +542,13 @@ h1{
     .competence_texte{
         margin-right: 0% !important;
         width: auto !important;
-        margin-bottom: 20%;
+        margin-bottom: 4%;
     }
 
     /*barre de compétences*/
     .bloc_progress_bar{
         width: auto !important;
-        padding: 4%;
+        padding: 3%;
     }
     /*Fin partie compétences*/
 
@@ -563,7 +570,8 @@ h1{
     /*card projets*/
     .projet_card{
         height: auto;
-        margin-bottom: 30%;
+        margin-bottom: 15%!important;
+        margin: auto;
     }
 
     .card-img{
