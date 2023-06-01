@@ -19,13 +19,13 @@
 }
 
 
-.fab{
+.fab, .fa-brands{
     color: rgb(128, 128, 128);
     font-size: 35px;
     margin: 10px;
 }
 
-.fab:hover{
+.fab:hover, .fa-brands:hover{
     color: rgb(17, 100, 100);
     transition-duration: 1s;
     font-size: 40px;
