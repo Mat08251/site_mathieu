@@ -248,44 +248,34 @@ h1, .titre-competence-progress{
 }
 
 .groupe-projet{
-    margin-top: 30px!important;
-    width: auto !important;
     display: flex;
-    margin-left: 12%;
 }
 
-.projet_portfolio{
-    margin: 0%!important;
-}
-
-/*bloc card projet*/
-.projet_card{
-    max-width: 65ch;
-    overflow: hidden;
-    transition: transform 500ms ease;
-    margin: 2%;
-}
-
-.projet_card:hover{
-    transform: scale(1.05);
+.card{
+    justify-content: center;
+    align-items: center;
+    border: 0 !important;
 }
 
 .card-img{
-    opacity: 0.5;
+    border: 0!important;
+    height: 100%;
 }
 
-.titre_projet{
-    margin-top: 80px;
+.card-title{
+    margin-top: 25%;
+    margin-bottom: 5%!important;
 }
 
 .card-text, .card-title{
     color: aliceblue;
-}
+  }
 
 .card-img-overlay:hover{
     font-size: 18px;
     transition-duration: 1s !important;
-}
+  }
+
 /*Fin bloc card projet*/
 /*Fin bloc section projets*/
 
@@ -378,6 +368,11 @@ h1, .titre-competence-progress{
     .photo{
         margin-left: 10%;
         margin-right: 5%;
+    }
+
+    /*photo partie service*/
+    .photo_service{
+        padding-top: 28% !important;
     }
 
     /*partie compétences*/
@@ -487,12 +482,12 @@ h1, .titre-competence-progress{
     .bloc_description{
         margin-left: auto !important;
         margin-right: auto !important;
-        width: auto !important;
+        width: 50% !important; 
     }
 
     .titre_qui_suisje{
         text-align: center;
-        padding-top: 30% !important;
+        padding-top: 10% !important;
         margin-bottom: 50px;
     }
 
@@ -514,12 +509,12 @@ h1, .titre-competence-progress{
 
     .bande-service{
         flex-direction: column;
-        height: 680px;
+        height: 650px;
         text-align: center;
     }
 
     .photo_service{
-        padding-top: 10%;
+        padding-top: 8%;
     }
 
     .bloc_design, .bloc_dev, .bloc_referencement{
@@ -622,3 +617,5 @@ h1, .titre-competence-progress{
     }
     /*Fin partie pub*/
 }
+
+
