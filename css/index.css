@@ -249,12 +249,18 @@ h1, .titre-competence-progress{
 
 .groupe-projet{
     display: flex;
+    justify-content: center;
+    margin-top: 2% !important;
+    
 }
 
-.card{
-    justify-content: center;
-    align-items: center;
+.card-projet1, .card-projet2{
+    padding: 0% !important;
     border: 0 !important;
+}
+
+.card-projet1 + .card-projet2{
+    margin-left: 15%;
 }
 
 .card-img{
@@ -389,23 +395,31 @@ h1, .titre-competence-progress{
 
 
     /*partie projets*/
+
     .projets{
-        height: 750px;
+        height: 660px;
     }
+   .groupe-projet{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
 
-    .projet_portfolio{
-        margin-left: 0%;
-    }
+   .card{
+    width: 70%!important;
+   }
 
-    .groupe-projet{
-        flex-direction: column;
-        width: auto!important;   
-    }
+   .card-title{
+    margin-top: auto;
+    margin-bottom: 20%!important;
+   }
 
-    .projet_card{
-        width: 190%;
-        margin-bottom: 10%;
-    }
+   .card-projet2{
+    margin-left: 0%!important;
+    margin-top: 5%!important;
+   }
+
+   .card
     /*Fin partie projets*/
 
 
@@ -416,6 +430,7 @@ h1, .titre-competence-progress{
 
     .info-annonce {
         height: 80%;
+        width: 50%!important;
     }
     /*Fin partie annonce*/
 
@@ -439,8 +454,8 @@ h1, .titre-competence-progress{
 
 /*media responsive telephone iPad Pro*/
 @media screen and (min-width : 1024px) and (max-width: 1366px) {
-    .projet_card {
-        margin-left: 24%;
+    .projets{
+        height: 880px;
     }
 }
 
@@ -549,32 +564,27 @@ h1, .titre-competence-progress{
 
 
     /*Partie projets*/
-    .projets{
-        height: 700px;
-    }
-
+    
+    /*card projets*/
     .groupe-projet{
-        margin-left: 0px!important;
         flex-direction: column;
+        
     }
 
-    .projet_portfolio {
+    .card-projet1 + .card-projet2{
+        margin-left: 0%;
+    }
+
+    .card{
         width: auto!important;
     }
 
-    /*card projets*/
-    .projet_card{
-        height: auto;
-        margin-bottom: 15%!important;
-        margin: auto;
+    .card-projet2{
+        margin-top: 10%!important;
     }
 
-    .card-img{
-        height: 200px;
-    }
-
-    .titre_projet{
-        margin-top: 0px;
+    .card-title{
+        margin-top: auto;
     }
     /*Fin des cards projets*/
     /*Fin partie projets*/
